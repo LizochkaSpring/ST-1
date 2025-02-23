@@ -24,54 +24,54 @@ TEST(st1, sumPrime4) {
   uint64_t expected = 28;
   EXPECT_EQ(expected, res);
 }
-ТЕСТ(st1, checkPrime1) {
+TEST(st1, checkPrime1) {
   ASSERT_TRUE(checkPrime(5));
 }
-ТЕСТ(st1, checkPrime2) {
+TEST(st1, checkPrime2) {
   ASSERT_TRUE(checkPrime(2));
 }
-ТЕСТ(st1, checkPrime3) {
+TEST(st1, checkPrime3) {
   ASSERT_FALSE(checkPrime(30));
 }
-ТЕСТ(st1, checkPrime4) {
+TEST(st1, checkPrime4) {
   ASSERT_FALSE(checkPrime(1005));
 }
-ТЕСТ(st1, nextPrime1) {
+TEST(st1, nextPrime1) {
   uint64_t res = nextPrime(6);
   uint64_t expected = 7;
   EXPECT_EQ(expected, res);
 }
-ТЕСТ(st1, nextPrime2) {
+TEST(st1, nextPrime2) {
   uint64_t res = nextPrime(50);
   uint64_t expected = 53;
   EXPECT_EQ(expected, res);
 }
-ТЕСТ(st1, nextPrime3) {
+TEST(st1, nextPrime3) {
   uint64_t res = nextPrime(10);
   uint64_t expected = 11;
   EXPECT_EQ(expected, res);
 }
-ТЕСТ(st1, nextPrime4) {
+TEST(st1, nextPrime4) {
   uint64_t res = nextPrime(1);
   uint64_t expected = 2;
   EXPECT_EQ(expected, res);
 }
-ТЕСТ(st1, nPrime1) {
+TEST(st1, nPrime1) {
   uint64_t res = nPrime(3);
   uint64_t expected = 5;
   EXPECT_EQ(expected, res);
 }
-ТЕСТ(st1, nPrime2) {
+TEST(st1, nPrime2) {
   uint64_t res = nPrime(20);
   uint64_t expected = 71;
   EXPECT_EQ(expected, res);
 }
-ТЕСТ(st1, nPrime3) {
+TEST(st1, nPrime3) {
   uint64_t res = nPrime(25);
   uint64_t expected = 97;
   EXPECT_EQ(expected, res);
 }
-ТЕСТ(st1, nPrime4) {
+TEST(st1, nPrime4) {
   uint64_t res = nPrime(32);
   uint64_t expected = 131;
   EXPECT_EQ(expected, res);
